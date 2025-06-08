@@ -2,14 +2,13 @@
 
 # Function to display the menu options
 def display_menu():
-    print("\n1. Add Item")
-    print("2. Remove Item")
-    print("3. View List")
-    print("4. Exit")
+    print("Shopping List Manager")       # Required exact string
+    print("1. Add Item")                # Required exact string
+    print("2. Remove Item")             # Required exact string
+    print("3. View List")               # Required exact string
+    print("4. Exit")                    # Required exact string
 
 def main():
-    print("Shopping List Manager")  # Required by checker
-
     shopping_list = []
 
     while True:
